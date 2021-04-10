@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(56, 173, 241);
+     color: black;
+    padding: 20px;
+}
+nav{
+background-color:rgb(32, 179, 224);
+color:rgb(245, 245, 245));
+padding: 20px;
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: cyan;
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color: darkkhaki;
+}
+footer{
+    background-color: rgb(127, 68, 223);
+    color: white;
+    padding: 20px;
+}
+
+.contenedor::after{
+    content:"" ;
+    display: block;
+    clear: both;
+}
